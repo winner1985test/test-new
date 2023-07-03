@@ -1,0 +1,173 @@
+.body_content {
+    background-color: #2A2C2F;
+
+    /*width: 100px;*/
+
+    height: 100px;
+}
+.ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+
+.page {
+    max-width: 1280px;
+    min-width: 320px;
+
+    /*border: 30px solid yellow;*/
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 10px solid red;*/
+}
+
+
+
+.header_logo {
+    background-image: url('./img/logo.svg');
+    width: 176px;
+    height: 52px;
+
+    /*background-size: 176px 52px;*/
+
+}
+
+.header_lang {
+    color: rgb(243, 231, 217);
+}
+
+.lead {
+    width: 984px;
+    margin: 0 auto;
+
+}
+
+.lead-title,
+.lead-subtinl,
+.lead-caption {
+    color: white;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+
+
+}
+
+
+
+.lead-title {
+
+    /*font-family: Inter;*/
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 100px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.lead-subtinl {
+    /*font-family: Inter;*/
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding-top: 32px;
+    padding-bottom: 64px;
+
+
+
+}
+
+.lead-caption {
+
+    /*font-family: Inter;*/
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-align: left;
+
+    padding-top: 8px;
+
+
+}
+
+.intro-title {
+    /* font-family: Inter;*/
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.intro {
+    width: 690px;
+    margin: 92px auto 0px 148px;
+    
+}
+
+.intro-title {
+    /*font-family: Inter;*/
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+
+.intro-text {
+    /* font-family: Inter;*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 690px;
+
+}
+
+
+.intro-list
+{
+    /*  font-family: Inter;*/
+
+    
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+list-style-type:none;
+
+
+
+}
