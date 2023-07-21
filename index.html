@@ -18,7 +18,7 @@
 
 
 
-            <img src="../сама_делаю/img/logo.png" style="max-width: 880px">
+            <img src="../test-new/img/logo.png" style="max-width: 880px">
 
 
         </header>
@@ -28,7 +28,7 @@
         <main>
 
             <section class="profile">
-                <img src="../сама_делаю/img/Avatar.png" style="max-width: 880px">
+                <img src="../test-new/img/Avatar.png" style="max-width: 880px">
 
                 <ul class="profile__list">
                     <li class="profile__list-name">Жак-Ив Кусто</li>
@@ -130,30 +130,75 @@
 
 
 
-                
-
-    </section>
 
 
+            </section>
 
 
-
-    </main>
-
-
-
-    <footer class="footer">
-
-        <p style="color:#545454">© 2020 Mesto Russia</p>
-
-        
+            <section class="entrance">
+                <div class="entrance__info">
+                    <h2 class="entrance__title">Редактировать профиль</h2>
+                    <p><input class="entrance__log" type="text" placeholder="Жак-Ив Кусто"></p>
+                    <p><input class="entrance__log" type="text" placeholder="Исследователь океана"></p>
+                    <button class="entrance__button">Войти</button>
 
 
 
 
 
+                </div>
 
-    </footer>
+
+
+
+
+            </section>
+
+
+
+
+
+        </main>
+
+        <script>
+
+            let buttonHeader = document.querySelector('.button__edit');
+            let buttonPopUp = document.querySelector('.entrance__button');
+            let blockEntrance = document.querySelector('.entrance');
+            buttonHeader.addEventListener('click', function (e) {
+                blockEntrance.classList.toggle('visible');
+
+
+
+            })
+            buttonPopUp.addEventListener('click', function (e) {
+                blockEntrance.classList.toggle('visible');
+
+
+
+            })
+
+
+
+
+
+        </script>
+
+
+
+
+        <footer class="footer">
+
+            <p style="color:#545454">© 2020 Mesto Russia</p>
+
+
+
+
+
+
+
+
+        </footer>
 
 
     </div>

@@ -3,7 +3,9 @@
     background-color: #000000;
     width: 880px;
     height: 1217px;
-    border: #000000;
+    position: relative;
+    /* border: #000000; */
+
 }
 
 .page {
@@ -18,13 +20,13 @@
 
 .header {
 
-    width: 950px;
+    width: 880px;
     height: 74px;
     top: 45px;
     left: 200px;
 
     padding-top: 45px;
-    border-bottom-width: 1px;
+    border-bottom-width: 0.1px;
     /* Толщина линии внизу */
     border-bottom-style: solid;
     /* Стиль линии внизу */
@@ -38,10 +40,10 @@
 
    
         width: 880px;
-        margin: 92px auto 0 auto;
+        /* margin: 92px auto 0 auto; */
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 16px;
+        /* gap: 16px; */
         padding-block: 50px;
         align-items: center;
 
@@ -85,15 +87,21 @@
 
 .button__edit {
 
+    color: white;
     width: 24px;
     height: 24px;
-    /* top: 196px;
-    left: 662px;
-    /* border: 1px; */
+    border-radius: 1px;
     background-color: transparent;
-    /* border-radius: 1px; */
-    border: 1px solid #FFFFFF;
-    background-color: transparent;
+    /* border: 2px solid #FFFFFF; */
+    
+
+
+
+
+
+
+  
+    
 
 }
 
@@ -132,7 +140,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-start: auto;
-    gap: 50px;
+    gap: 20px;
 
 
 
@@ -175,6 +183,22 @@
 
 .elements__color {
     background-color: antiquewhite;
+}
+.entrance{
+
+    width:350px;
+height:250px;
+top: 25%;
+left: 50%;
+text-align: center;
+background-color: white;
+position: absolute;
+border: 2px solid blue;
+display: none;
+
+}
+.visible{
+    display: block;
 }
 
 .footer {
